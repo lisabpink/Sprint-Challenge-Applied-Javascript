@@ -5,25 +5,25 @@
   border-bottom: 1px solid lightgrey;
 }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'Cuprum', sans-serif;';
   font-style: italic;
   font-weight: 400;
   src: local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v10/jizYRExUiTo99u79D0e0x8mN.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'Cuprum', sans-serif;';
   font-style: italic;
   font-weight: 700;
   src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v10/jizdRExUiTo99u79D0e8fOydLxUY.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'Cuprum', sans-serif;';
   font-style: normal;
   font-weight: 400;
   src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v10/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'Cuprum', sans-serif;';
   font-style: normal;
   font-weight: 700;
   src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v10/jizfRExUiTo99u79B_mh0O6tKA.ttf) format('truetype');
@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   background-color: #f1f1f1;
   color: #333;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Cuprum', sans-serif;', sans-serif;
 }
 .top-bar {
   width: 100%;
@@ -132,7 +132,7 @@ body {
 }
 .header h1 {
   font-size: 60px;
-  font-family: Didot, serif;
+  font-family: 'Cuprum', sans-serif;
   font-weight: bold;
   flex: 8;
   text-align: center;
@@ -229,7 +229,7 @@ body {
 }
 .cards-container .card .headline {
   font-size: 25px;
-  font-family: Didot, serif;
+  font-family: 'Cuprum', sans-serif;
 }
 .cards-container .card .author {
   display: flex;
