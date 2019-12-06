@@ -38,8 +38,8 @@ body {
   justify-content: none;
   align-items: center;
   flex-direction: column;
-  background-color: aliceblue;
-  color: #333;
+  background-color: LAVENDERBLUSH;
+  color: DARKSLATEGREY;
   font-family: 'Cuprum', sans-serif;
 }
 .top-bar {
@@ -50,7 +50,7 @@ body {
   flex-direction: row;
   position: fixed;
   height: 44px;
-  background-color: #333;
+  background-color: DARKSLATEGREY;
 }
 .top-bar .container {
   width: 100%;
@@ -128,7 +128,7 @@ body {
   }
 }
 .header h1 {
-  font-size: 60px;
+  font-size: 75px;
   font-family: 'Cuprum', sans-serif;
   font-weight: bold;
   flex: 8;
@@ -137,7 +137,7 @@ body {
 }
 .header span {
   align-self: flex-end;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -172,7 +172,7 @@ body {
   flex-direction: row;
 }
 .tabs .topics .title {
-  font-size: 12px;
+  font-size: 20px;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -182,10 +182,10 @@ body {
   align-items: center;
   flex-direction: row;
   color: #fff;
-  background-color: #333;
+  background-color: DARKSLATEGREY;
   margin: 0 5px;
   padding: 2px 10px;
-  font-size: 12px;
+  font-size: 20px;
   letter-spacing: 2px;
   cursor: pointer;
   font-weight: bold;
@@ -196,8 +196,8 @@ body {
 }
 .tabs .topics .active-tab {
   background-color: #fff;
-  color: #333;
-  border: 2px solid #333;
+  color: DARKSLATEGREY;
+  border: 2px solid DARKSLATEGREY;
 }
 .cards-container {
   display: flex;
@@ -226,7 +226,7 @@ body {
 }
 .cards-container .card .headline {
   font-size: 25px;
-  font-family: Didot, serif;
+  font-family: 'Cuprum', sans-serif;
 }
 .cards-container .card .author {
   display: flex;
@@ -237,7 +237,7 @@ body {
 }
 .cards-container .card .author .img-container {
   padding-right: 10px;
-  border-right: 1px solid pink;
+  border-right: 5px solid pink;
   height: 40px;
 }
 .cards-container .card .author .img-container img {
@@ -245,7 +245,7 @@ body {
 }
 .cards-container .card .author span {
   padding-left: 10px;
-  font-size: 12px;
+  font-size: 19px;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -272,7 +272,7 @@ body {
   align-items: none;
   flex-direction: row;
   color: #fff;
-  background-color: #333;
+  background-color: DARKSLATEGREY;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
@@ -282,9 +282,9 @@ body {
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
-  color: #333;
+  color: DARKSLATEGREY;
   background-color: #fff;
-  border: 2px solid #333;
+  border: 2px solid DARKSLATEGREY;
 }
 .carousel .left-button {
   top: 50%;
