@@ -2,31 +2,28 @@
   width: 100%;
 }
 .border-bottom-grey {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 2px solid pink;
 }
 @font-face {
-  font-family: 'Cuprum', sans-serif;';
-  font-style: italic;
-  font-weight: 400;
-  src: local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v10/jizYRExUiTo99u79D0e0x8mN.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Cuprum', sans-serif;';
-  font-style: italic;
-  font-weight: 700;
-  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v10/jizdRExUiTo99u79D0e8fOydLxUY.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Cuprum', sans-serif;';
+  font-family: 'Cinzel';
   font-style: normal;
   font-weight: 400;
-  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v10/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');
+  font-display: swap;
+  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gt79mT-.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Cuprum', sans-serif;';
+  font-family: 'Cuprum';
   font-style: normal;
-  font-weight: 700;
-  src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v10/jizfRExUiTo99u79B_mh0O6tKA.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  src: local('Cuprum Regular'), local('Cuprum-Regular'), url(https://fonts.gstatic.com/s/cuprum/v11/dg4k_pLmvrkcOkBNJutH.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'ZCOOL XiaoWei';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('ZCOOL XiaoWei Regular'), local('ZCOOLXiaoWei-Regular'), url(https://fonts.gstatic.com/s/zcoolxiaowei/v5/i7dMIFFrTRywPpUVX9_RJyM1UFWaGw.ttf) format('truetype');
 }
 * {
   box-sizing: border-box;
@@ -41,9 +38,9 @@ body {
   justify-content: none;
   align-items: center;
   flex-direction: column;
-  background-color: #f1f1f1;
+  background-color: aliceblue;
   color: #333;
-  font-family: 'Cuprum', sans-serif;', sans-serif;
+  font-family: 'Cuprum', sans-serif;
 }
 .top-bar {
   width: 100%;
@@ -119,7 +116,7 @@ body {
   align-items: center;
   flex-direction: row;
   background-color: #fff;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 2px solid pink;
   width: 100%;
   height: 120px;
   margin-top: 44px;
@@ -154,7 +151,7 @@ body {
   flex: 1;
 }
 .tabs {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 2px solid pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +214,7 @@ body {
   }
 }
 .cards-container .card {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 2px solid pink;
   display: flex;
   justify-content: space-between;
   align-items: none;
@@ -229,7 +226,7 @@ body {
 }
 .cards-container .card .headline {
   font-size: 25px;
-  font-family: 'Cuprum', sans-serif;
+  font-family: Didot, serif;
 }
 .cards-container .card .author {
   display: flex;
@@ -240,7 +237,7 @@ body {
 }
 .cards-container .card .author .img-container {
   padding-right: 10px;
-  border-right: 1px solid lightgrey;
+  border-right: 1px solid pink;
   height: 40px;
 }
 .cards-container .card .author .img-container img {
